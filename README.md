@@ -1,7 +1,19 @@
+## Project details
+
+### Live website at https://wordle.gabes.co.uk/
+
+This is a web app you can use to practice for the "real" worldle. It has 5 attempts to guess the word(rather than 6). No need to wait 24h to get a new word. "Play again" from within the stats modal will give a new word every time, so you can play over and over again. 
+
+Every game you play will count towards your stats, and these can be globally reset using the Reset button. 
+
+### libraries used:
+https://react-bootstrap.github.io/
+
+https://github.com/recharts/recharts
+
+https://react-icons.github.io/react-icons/
 
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,3 +51,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
