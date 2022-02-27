@@ -1,0 +1,68 @@
+.keyboardKey {
+  width: 60px !important;
+  height: 80px !important;
+  margin: 4px !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-size: 1.5rem !important;
+}
+
+.keyboardKey:hover {
+  background: #808080 !important;
+}
+
+.incorrect {
+  background-color: var(--incorrect) !important;
+  transition: all 500ms !important;
+}
+
+.correct {
+  background-color: var(--correct) !important;
+  transition: all 500ms !important;
+}
+
+.correctWrongPosition {
+  background-color: var(--correctWrongPosition) !important;
+  transition: all 500ms !important;
+}
+
+.keyboardKey {
+  background-color: var(--main-bg-colour-keyboard);
+}
+
+.keyboard {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .keyboardKey {
+    width: 33px !important;
+    height: 50px !important;
+    margin: 1.5px !important;
+    border-radius: 5px !important;
+    font-size: 1rem !important;
+    text-align: center !important;
+    padding: 0;
+    color: black;
+    background-color: var(--main-bg-colour-keyboard);
+  }
+
+  .keyboard {
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+  }
+
+  #enter,
+  #delete {
+    width: 50px !important;
+    font-size: 3rem;
+  }
+
+  .keyboardKey:hover {
+    background-color: var(--main-bg-colour-keyboard) !important;
+  }
+  .keyboardKey:active {
+    background: hsl(0, 0%, 50%) !important;
+  }
+}
